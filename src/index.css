@@ -7,3 +7,17 @@
 *::after {
   box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+  .mtop-1 {
+    margin-top: 1rem !important;
+  }
+
+  .mtop-2 {
+    margin-top: 2rem !important;
+  }
+
+  .mtop-3 {
+    margin-top: 3rem !important;
+  }
+}

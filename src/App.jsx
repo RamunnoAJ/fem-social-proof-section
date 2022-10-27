@@ -1,7 +1,10 @@
+import React from 'react'
+import Cards from './components/Cards'
+
 export default function App() {
   return (
-    <h1 className='text-3xl font-bold underline text-primary-dark font-primary'>
-      Hello world!
-    </h1>
+    <div className='min-h-screen'>
+      <Cards />
+    </div>
   )
 }
