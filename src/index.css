@@ -20,4 +20,16 @@
   .mtop-3 {
     margin-top: 3rem !important;
   }
+
+  .mleft-1 {
+    margin-left: 1rem !important;
+  }
+
+  .mleft-2 {
+    margin-left: 3rem !important;
+  }
+
+  .mleft-3 {
+    margin-left: 6rem !important;
+  }
 }
