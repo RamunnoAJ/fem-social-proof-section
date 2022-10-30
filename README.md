@@ -48,6 +48,6 @@ Users should be able to:
 
 ![Desktop view](./public/images/desktop-view.png)
 
-![Mobile view 1](./public/images/mobile-view-1.png)
+![Mobile view 1](./public/images/mobile-view-1.png)  ![Mobile view 2](./public/images/mobile-view-2.png)
 
-![Mobile view 2](./public/images/mobile-view-2.png)
+
