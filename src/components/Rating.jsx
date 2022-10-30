@@ -3,7 +3,7 @@ import Star from './icons/Star'
 
 export default function Rating({ category, stars, id }) {
   return (
-    <div className=' bg-secondary rounded-lg max-w-md flex flex-col justify-center items-center gap-4 py-4 px-2'>
+    <div className=' bg-secondary rounded-lg max-w-md flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 py-4 px-2'>
       <ul className='flex gap-1'>
         {stars.map((star, index) => (
           <li key={index}>

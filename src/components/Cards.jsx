@@ -31,19 +31,17 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className='min-h-screen w-11/12 mx-auto'>
-      <div>
-        {cards.map((card) => (
-          <div key={card.id} className={`mt-4 mtop-${card.id} `}>
-            <Card
-              image={card.image}
-              title={card.title}
-              subtitle={card.subtitle}
-              text={card.text}
-            />
-          </div>
-        ))}
-      </div>
+    <div className='flex flex-col md:flex-row '>
+      {cards.map((card) => (
+        <div key={card.id} className={`m-2 mtop-${card.id} `}>
+          <Card
+            image={card.image}
+            title={card.title}
+            subtitle={card.subtitle}
+            text={card.text}
+          />
+        </div>
+      ))}
     </div>
   )
 }
